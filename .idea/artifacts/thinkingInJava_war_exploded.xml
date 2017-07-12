@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="thinkingInJava:war exploded">
+    <output-path>$PROJECT_DIR$/target/thinkInJava</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="thinkingInJava" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/thinkInJava/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="thinkingInJava/web/Web" />
+    </root>
+  </artifact>
+</component>
