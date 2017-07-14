@@ -1,4 +1,6 @@
-package collection.map;
+package collection.list;
+
+import collection.map.User;
 
 import java.util.HashSet;
 import java.util.Set;
