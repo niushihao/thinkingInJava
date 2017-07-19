@@ -27,6 +27,10 @@ public class MyLinkedList {
         size++;
     }
 
+    public void add(int index,Object o){
+
+    }
+
     public Object get(int index){
 
         return null;
@@ -37,6 +41,7 @@ public class MyLinkedList {
     }
 
     public static void main(String[] args) {
+
         //LinkedList
     }
 }
