@@ -14,7 +14,7 @@ public class Test {
         SubjectImpl impl =new SubjectImpl();
         Subject proxySubject  = (Subject) Proxy.newProxyInstance(Test.class.getClassLoader(),new Class[]{Subject.class},new ProxyHandler(impl));
         proxySubject.doSomething();
-        createProxyClassFile();
+        //createProxyClassFile();
     }
 
     public static void createProxyClassFile()
